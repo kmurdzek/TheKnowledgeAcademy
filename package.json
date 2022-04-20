@@ -1,0 +1,53 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "homepage": "https://kmurdzek.github.io/TheKnowledgeAcademy",
+  "username": "kmurdzek",
+  "password": "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",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ./",
+    "clean": "shx rm -rf .next",
+    "dev": "next dev",
+    "build": "npm run clean && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.4",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@nfteyez/sol-rayz": "^0.7.0",
+    "@nfteyez/sol-rayz-react": "^0.7.0",
+    "@project-serum/anchor": "^0.15.0",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/wallet-adapter-base": "^0.6.0",
+    "@solana/wallet-adapter-react": "^0.12.5",
+    "@solana/wallet-adapter-react-ui": "^0.5.1",
+    "@solana/wallet-adapter-wallets": "^0.10.1",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.3",
+    "html-react-parser": "^1.4.0",
+    "ioredis": "^4.28.0",
+    "next": "^11.0.0",
+    "next-transpile-modules": "^8.0.0",
+    "react": "^17.0.2",
+    "react-burger-menu": "^3.0.6",
+    "react-countdown": "^2.3.2",
+    "react-dom": "17.0.2",
+    "react-hot-toast": "^2.1.1",
+    "react-paginate": "^7.1.3",
+    "superagent": "^6.1.0",
+    "swr": "^1.0.1",
+    "typescript": "^4.4.2",
+    "use-debounce": "^7.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "gh-pages": "^3.2.3",
+    "postcss": "^8.3.6",
+    "shx": "^0.3.3",
+    "tailwindcss": "^2.2.9"
+  }
+}
